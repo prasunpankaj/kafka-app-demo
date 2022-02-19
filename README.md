@@ -22,9 +22,9 @@ https://www.apache.org/dyn/closer.cgi?path=/kafka/3.1.0/kafka_2.13-3.1.0.tgz
 
 # To Create Topic:
 
-./kafka-topics.sh --create --topic test-topic --bootstrap-server localhost:9092 --replication-factor 1 --partitions 4
+./kafka-topics.sh **--create --topic test-topic** --bootstrap-server localhost:9092 --replication-factor 1 --partitions 4
 
-./kafka-topics.sh --create --topic test-topic1 --bootstrap-server localhost:9092 --replication-factor 1 --partitions 4
+./kafka-topics.sh **--create --topic test-topic1** --bootstrap-server localhost:9092 --replication-factor 1 --partitions 4
 
 # To List the Created Topic:
 ./kafka-topics.sh --list --bootstrap-server localhost:9092 
